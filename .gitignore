@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Output & build
+dist/
+build/
+lib/db/schema.d.ts
+
+# Drizzle generated files
+src/generated_files/
+*.sql
+*.snapshot.json
+_journal.json
+
+# Archives
+*.zip
+
+# Environment files (if you use them)
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
